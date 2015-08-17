@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.pyxx.chinesetourism.view.HeaderView
+        android:id="@+id/five_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.pyxx.chinesetourism.view.StretchScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp" >
+
+            <TextView
+                android:id="@+id/five_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/five_name"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/five_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/five_detail_img"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/three_detail"
+                android:textColor="#5C5C5C"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/five_detail_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/five_detail_img"
+                android:layout_below="@+id/five_detail_name"
+                android:layout_marginTop="10dp"
+                android:text="@string/six_time"
+                android:textColor="@color/divide"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/five_comefrom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/five_detail_time"
+                android:layout_alignBottom="@+id/five_detail_time"
+                android:layout_alignRight="@+id/five_content"
+                android:layout_marginRight="23dp"
+                android:text="@string/six_come_from"
+                android:textColor="@color/divide"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/five_comefrom"
+                android:layout_alignBottom="@+id/five_comefrom"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/five_comefrom"
+                android:text="来源:"
+                android:textColor="@color/divide"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/five_detail_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/five_detail_time"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_detail" />
+        </RelativeLayout>
+    </com.pyxx.chinesetourism.view.StretchScrollView>
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pyxx.chinesetourism"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 添加拨号的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡读取权限，用户写入离线定位数据 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon_launch"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pyxx.chinesetourism.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 百度地图 -->
+        <!-- 开发测试Key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="sUcQ3w1cr4Mta972ere2aKq1" />
+        <!-- 打包发布Key -->
+        <!-- <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="sUcQ3w1cr4Mta972ere2aKq1" /> -->
+
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MainTopMoreActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MainLoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.LoginTestActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MainRegisterActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MainRegistNextAvtivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MoreFeedbackActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MoreAboutusActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MoreMyCollectActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.more.MainForgetPwdActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.MainContentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.OneDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.TwoDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.ThreeDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.FourDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.FiveDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.SixDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.BaiduMapActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.BaiduMapActivity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.DetailRouteSearch2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.activity.DetailRouteSearch"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.crop.CropImageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.pyxx.chinesetourism.crop.CropImageMainAvtivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

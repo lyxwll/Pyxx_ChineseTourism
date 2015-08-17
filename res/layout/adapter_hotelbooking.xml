@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- 酒店预定 -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#EDECEC"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/two_logo_img"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_img" />
+
+        <TextView
+            android:id="@+id/two_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/two_logo_img"
+            android:text="@string/two_name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/two_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/two_name"
+            android:layout_below="@+id/two_name"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/two_detail"
+            android:textColor="#A7A7A7"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/two_tele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/two_logo_img"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/call_phone"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="5dp"
+            android:text="@string/one_telephone"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/to_detail_img"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/more_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

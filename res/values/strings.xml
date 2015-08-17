@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">中国旅游观光</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- HeaderView -->
+    <string name="back">返回</string>
+    <string name="sure">确定</string>
+    <string name="network_unreachable">当前网络不可用，请检查网络设置</string>
+    <string name="settings_not_exists">系统错误，程序设置不存在</string>
+    <string name="setting_ok">确定</string>
+    <!-- HeaderView -->
+
+
+    <!-- LoginActivity-layout -->
+    <string name="back_arrow">返回箭头</string>
+    <string name="header_more">顶部更多菜单项</string>
+    <string name="login">登    录</string>
+    <string name="forget_pwd">忘记密码?</string>
+    <string name="register">新用户注册</string>
+    <string name="user_hint">请输入您的邮箱地址</string>
+    <string name="pwd_hint">请输入您的密码</string>
+    <string name="login_failure">登录失败</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_notify">提示</string>
+    <string name="login_falure">身份验证失败</string>
+    <string name="network_error">当前网络出错</string>
+
+    <!-- registerActivity layout -->
+    <string name="register_title">注册</string>
+    <string name="forget_title">忘记密码</string>
+    <string name="register_user_hint">请输入您的手机号码</string>
+    <string name="verification_code">请输入验证码</string>
+    <string name="get_verificate_code">获取验证码</string>
+    <string name="next_step">下一步</string>
+    <string name="your_name">请输入您的用户名</string>
+    <string name="email">请输入您的邮箱地址</string>
+    <string name="email_address">请输入您的邮箱地址</string>
+    <string name="password">请输入您的密码</string>
+    <string name="repeat_pwd">请输入重复密码</string>
+    <string name="complete_regist">完成注册</string>
+    <string name="complete_forget">密码重置</string>
+    <string name="register_password_notsame">两次密码不一样</string>
+    <string name="register_passowrd_length">密码长度不在6&#8211;12个字符之间</string>
+    <string name="register_name_length">用户名长度不在6&#8211;12个字符之间</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_failure">注册失败</string>
+    <string name="register_check_failure">信息不完整,请填写完整的注册信息</string>
+
+    <!-- MORE -->
+    <string name="more">更多</string>
+    <string name="image_content">image</string>
+    <string name="more_login">登录</string>
+    <string name="more_nologin">注销</string>
+    <string name="more_mycollect">我的收藏</string>
+    <string name="more_mycollect_1">酒店收藏</string>
+    <string name="more_mycollect_2">景点收藏</string>
+    <string name="more_mycollect_3">旅行社收藏</string>
+    <string name="more_aboutus">关于我们</string>
+    <string name="more_aboutus_1">中国旅游观光门户手机客服端</string>
+    <string name="more_aboutus_2">V1.0</string>
+    <string name="more_feedback">用户反馈</string>
+    <string name="input_suggestion_less">请至少输入10个字</string>
+    <string name="commit_success">提交成功</string>
+    <string name="commit_failure">提交失败</string>
+    <string name="register_email_not">邮箱格式不正确,请重新输入</string>
+    <string name="register_phone_not">手机号码格式不正确,请重新输入</string>
+    <string name="more_feedback_1">请给我们提您的宝贵意见,我们会为您做的更好</string>
+    <string name="more_feedback_2">邮箱:</string>
+    <string name="more_feedback_2_1">方便我们给您回复</string>
+    <string name="more_pushmsg">推送提醒</string>
+    <string name="more_clearcache">缓存清理</string>
+    <string name="more_customer">客服中心:4000－666－058</string>
+
+    <!-- 推荐景点 -->
+    <string name="one_name">恭王府</string>
+    <string name="one_detail">清代规模最大的一座王府,装载了半部清朝的历史.</string>
+    <string name="one_telephone">025－58242114</string>
+    <string name="five_name">西双版纳</string>
+    <string name="five_detail">西双版纳傣族自治州，位于中华人民共和国云南省最南端，是云南省下辖的一个少数民族自治州。地处北纬约21°10’，东经99°55’至101°50’之间，属北回归线以南的热带湿润区。东西面与江城县、普洱市相连；西北面与澜沧县为邻；东南部、南部和西南部分别与老挝、缅甸山水相连， 邻近泰国和越南，与泰国的直线距离仅200余公里。</string>
+    <string name="two_name">三亚海盗船家庭旅馆</string>
+    <string name="two_detail">亚海盗船家庭旅馆地处大东海风景区内，大东海的中心看海公寓。</string>
+    <string name="four_name">新文化国际旅行社</string>
+    <string name="four_detail">宁夏新文化国际旅行社（有限公司）是一家成立于2009年的新的“老”公司。</string>
+    <string name="three_name">厦门鼓浪屿</string>
+    <string name="three_detail">鼓浪屿（英文：Kulangsu）是福建省厦门市思明区下辖的一个街道。原名“圆沙洲”，别名“圆洲仔”，南宋时期命“五龙屿”明朝改称“鼓浪屿”。因岛西南方海滩上有一块两米多高、中有洞穴的礁石，每当涨潮水涌，浪击礁石，声似擂鼓，人们称“鼓浪石”，鼓浪屿因此而得名。</string>
+    <string name="three_price">130</string>
+    <string name="three_adress">重庆黄泥塝新溉大道219号</string>
+    <string name="three_road">线路导航</string>
+    <string name="detail_building">楼盘简介</string>
+    <string name="detail_develop">开发商简介</string>
+    <string name="detail_turism">景点简介</string>
+    <string name="six_name">浪漫之都 中国大连</string>
+    <string name="six_time">2014－3－14  15:30</string>
+    <string name="six_come_from">腾讯网</string>
+
+    <!--  -->
+    <string name="exit">退出程序</string>
+    <string name="exit_message">是否退出中国旅游观光客户端?</string>
+    <string name="done">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- 地图查询 -->
+    <string name="zoom_buttons">缩放按钮</string>
+    <string name="zoom_gestures">缩放手势</string>
+    <string name="zoom_in">+</string>
+    <string name="zoom_out">-</string>
+    <string name="scale">比例尺</string>
+    <string name="buttonScale">获取比例尺</string>
+    <string name="logo_position">logo位置</string>
+    <string name="bottom_left">左下</string>
+    <string name="bottom_center">底部居中</string>
+    <string name="bottom_right">右下</string>
+    <string name="compass">指南针</string>
+    <string name="mylocation_layer">我的位置图层</string>
+    <string name="scroll">滑动手势</string>
+    <string name="load_tips">加载提示</string>
+    <string name="start_add">起点:  </string>
+    <string name="end_add">终点:</string>
+    <string name="start_address">请输入起点位置</string>
+    <string name="end_address">请输入终点位置</string>
+
+    <!--  -->
+
+
+    <!-- xlistview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载&#8230;</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_footer_hint_nomore">无更多数据</string>
+    <!-- xlistview -->
+
+
+    <!-- lmListView -->
+    <string name="lmlistview_header_hint_normal">下拉加载上一页</string>
+    <string name="lmlistview_header_hint_ready">松开加载上一页</string>
+    <string name="lmlistview_header_hint_loading">正在加载上一页</string>
+    <string name="lmlistview_header_hint_first">当前已是第一页</string>
+    <string name="lmlistview_footer_hint_normal">查看下一页</string>
+    <string name="lmlistview_footer_hint_ready">松开载入下一页</string>
+    <string name="lmlistview_footer_hint_nomore">无更多数据</string>
+    <!-- lmListView -->
+
+
+    <!-- for crop image -->
+    <string name="crop_save">Save</string>
+    <string name="crop_cancel">Cancel</string>
+    <string name="image_upload">图片上传</string>
+
+    <string-array name="image_upload_method">
+        <item>从相册中挑选</item>
+        <item>用相机拍摄</item>
+    </string-array>
+    <!-- for crop image -->
+
+</resources>

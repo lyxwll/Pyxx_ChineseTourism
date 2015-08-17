@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/header_bkg" >
+
+        <Button
+            android:id="@+id/header_back_btn"
+            style="@style/button_style"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/header_back"
+            android:paddingLeft="8dip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dip"
+            android:layout_toLeftOf="@+id/header_more_img"
+            android:layout_toRightOf="@+id/header_back_btn"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/header_title"
+                style="@style/TitleTextView"
+                android:ellipsize="end"
+                android:focusable="true"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clipToPadding="true"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/header_more_img"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/header_more"
+            android:src="@drawable/header_more"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title_network"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/network_selector"
+        android:clickable="true"
+        android:paddingBottom="5dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="5dip"
+        android:singleLine="true"
+        android:text="@string/app_name"
+        android:visibility="visible" />
+
+</LinearLayout>

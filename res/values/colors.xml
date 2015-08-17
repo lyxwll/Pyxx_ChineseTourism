@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 基本颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="divide">#C7C7C7</color>
+    <color name="blue">#0000FF</color>
+    <color name="dark">#FF222222</color>
+    <color name="light">#FFEEEEEE</color>
+    <color name="orange">#DD984F</color>
+    <color name="common_grey">#505050</color>
+    <color name="common_blue">#0390D5</color>
+    <color name="background_tab_pressed">#6633B5E5</color> <!-- 滑动导航条点击颜色 -->
+    <color name="common_list_divider">#dfdfdf</color>
+    <color name="light_gray_text">#949494</color>
+    <color name="header_bkg">#DD984F</color> <!-- 顶部菜单背景 -->
+    <color name="login_button_bkg">#33DAD4</color> <!-- 登录按钮背景 -->
+    <color name="network_background">#dedede</color> <!-- 网络状态背景 -->
+    <color name="common_grey_background">#fbf4ec</color> <!-- 描边背景颜色 -->
+    <drawable name="send_sms_lvshe">#33DAD4</drawable>
+
+    <color name="more_item_bkg">#F3F3F4</color> <!-- 更多Item栏背景 -->
+    <color name="item_press">#DDDDDE</color> <!-- Item项点击颜色 -->
+    <color name="more_btn_bkg">#33DAD4</color> <!-- 更多登录,注销背景 -->
+    <color name="customer_bkg">#ECECEC</color> <!-- 客服中心电话栏背景 -->
+    <color name="more_word_bkg">#8B8B8B</color> <!-- 更多导航栏字的颜色 -->
+    <color name="more_collect_color">#DBDBDB</color> <!-- 我的收藏导航栏背景 -->
+
+    <color name="common_black_word">#333333</color> <!-- 用于标准名称 -->
+    <color name="header_background">#dedede</color>
+    <color name="common_blue_word">#005491</color> <!-- 导航栏按下背景 -->
+    <color name="common_bottom">#0061A7</color> <!-- 底部和二级导航栏背景 -->
+    <color name="common_bottom_press">#004378</color> <!-- 底部按下背景 -->
+    <color name="common_word">#A4D9E2</color> <!-- 标题导航栏字的颜色 -->
+    <color name="mid_content_bg">#F5F6F6</color> <!-- 中间内容背景颜色 -->
+    <color name="huancunziti">#00A0E9</color> <!-- 缓存字体颜色 -->
+    <color name="area_color">#0390D5</color> <!-- 区域地址 字点击颜色 -->
+    <color name="common_white">#ffffff</color> <!-- 白色 -->
+    <color name="transparent">#00000000</color> <!-- 透明 -->
+    <color name="divider_color">#dddddd</color> <!-- 分割线,边线 -->
+    <color name="warning_background">#ffffcc</color> <!-- 警告背景 -->
+    <color name="border_color">@color/divider_color</color>
+    <color name="custom_dialog_bkg">#DD984F</color>
+
+    <!-- 蓝色按钮 -->
+    <color name="common_border">#22c9af</color> <!-- 获得焦点时的边框颜色 -->
+    <color name="blue_normal">@color/common_border</color>
+    <color name="blue_pressed">@color/common_blue_word</color>
+
+</resources>
